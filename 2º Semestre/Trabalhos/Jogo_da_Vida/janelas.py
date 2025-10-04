@@ -5,14 +5,14 @@ class Label(ctk.CTkLabel):
         super().__init__(master,bg_color=bg,font=font,text=text)
         self.pack()
 
-class Butao(ctk.CTkButton):
+class Botao(ctk.CTkButton):
     def __init__(self,master,fg,font,text,func,col,valor):
         super().__init__(master,fg_color=fg,font=font,text=text,
                          command=lambda:func(valor),corner_radius=35,
                          width=300,height=200)
         self.grid(row=0,column=col,pady=5,padx=10)
 
-class ButaoFrame(ctk.CTkFrame):
+class BotaoFrame(ctk.CTkFrame):
     def __init__(self,master,larg,alt):
         super().__init__(master,width=larg,
                          height=alt)
