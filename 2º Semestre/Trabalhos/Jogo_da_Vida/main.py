@@ -21,7 +21,7 @@ class JogoDaVida(ctk.CTk):
         butao_frame = ButaoFrame(self,larg=1000,alt=300)
         col = 0 
         for k,v in var.dados['perguntas']['3']['respostas'].items():
-            Butao(butao_frame,fg='green',font=('consolas',20),text=k,func=lambda:self.passar_valores(v),col=col)
+            Butao(butao_frame,fg='green',font=('consolas',20),text=k,func=self.passar_valores,col=col,valor=v)
             col += 1
 
     def passar_valores(self,valor):
