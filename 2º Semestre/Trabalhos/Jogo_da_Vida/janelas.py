@@ -6,9 +6,9 @@ class Label(ctk.CTkLabel):
         self.pack()
 
 class Botao(ctk.CTkButton):
-    def __init__(self,master,fg,font,text,func,col,valor):
+    def __init__(self,master,fg,font,text,func,col,chave):
         super().__init__(master,fg_color=fg,font=font,text=text,
-                         command=lambda:func(valor),corner_radius=35,
+                         command=lambda:func(chave),corner_radius=35,
                          width=300,height=200)
         self.grid(row=0,column=col,pady=5,padx=10)
 
