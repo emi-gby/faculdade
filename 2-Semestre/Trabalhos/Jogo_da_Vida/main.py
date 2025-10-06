@@ -6,15 +6,20 @@ from janelas import *
 class JogoDaVida(ctk.CTk):
     def __init__(self):
         super().__init__()
-        self.geometry('1350x750')
+        self.geometry('1350x800')
         self.title('Jogo da Vida')
         self.resizable(False,False)
 
         #questão atual --> no começo do jogo
-        self.questao_atual = '1'        
+        self.questao_atual = '1'    
+
+        #Tela de fundo - label    
+        background_img = ctk.CTkImage(Image.open(var.caminho_bg_img),size=(1350,800))
+        background_lbl = ctk.CTkLabel(self, text='', image=background_img)
+        background_lbl.place(x=0, y=0)
 
         #Display do texto da questão
-        self.questao_label = Label(self,bg='black',font=('consolas',25),text='') 
+        self.questao_label = Label(self,bg='black',font=('consolas',28),text='') 
 
         #Criação da imagem do personagem
         imagem_personagem = ctk.CTkImage(Image.open(var.caminho_person_img),size=(200,300))
@@ -28,9 +33,9 @@ class JogoDaVida(ctk.CTk):
 
         self.update_interface()
         
-
     def update_interface(self):
         '''Atualiza a interface com os textos das perguntas e das repostas a partir da questão atual'''
+        print(self.questao_atual)
 
         #se não tiver mais questões o jogo acaba
         if self.questao_atual is None:
