@@ -43,6 +43,7 @@ class JogoDaVida(ctk.CTk):
         
     def update_interface(self):
         '''Atualiza a interface com os textos das perguntas e das repostas a partir da questão atual'''
+        
 
         #Se não tiver mais questões o jogo acaba
         if self.questao_atual is None:
