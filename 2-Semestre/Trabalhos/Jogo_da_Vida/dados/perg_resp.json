@@ -131,6 +131,7 @@
     "17": {
       "texto": "Você recebeu um feedback construtivo, mas não concorda\n totalmente com ele.",
       "respostas": {
+<<<<<<< HEAD
         "Agradecer pelo feedback,\n refletir com calma e depois\n conversar para esclarecer\n seus pontos.": { "lv": 2, "hp": 1, "prox_q": "18" },
         "Rebater o feedback na hora,\n dizendo que está errado.": { "lv": -1, "hp": -2, "prox_q": "18" },
         "Ignorar completamente o \nfeedback e continuar agindo\n como antes.": { "lv": -2, "hp": -2, "prox_q": "18" }
@@ -142,6 +143,12 @@
         "Sim!!" : {"lv":0,"hp":0,"prox_q":null},
         "Sim!!!" : {"lv":0,"hp":0,"prox_q":null}
       }
+=======
+        "Agradecer pelo feedback,\n refletir com calma e depois\n conversar para esclarecer\n seus pontos.": { "lv": 2, "hp": 1, "prox_q": null },
+        "Rebater o feedback na hora,\n dizendo que está errado.": { "lv": -1, "hp": -2, "prox_q": null },
+        "Ignorar completamente o \nfeedback e continuar agindo\n como antes.": { "lv": -2, "hp": -2, "prox_q": null }
+      }  jhkjfhdshfks   fjsdhfkjds
+>>>>>>> e1ede7f270ca728412bde4d39bfbe9a84fc918d1
     }
     }
   }
