@@ -131,10 +131,19 @@
     "17": {
       "texto": "Você recebeu um feedback construtivo, mas não concorda\n totalmente com ele.",
       "respostas": {
-        "Agradecer pelo feedback,\n refletir com calma e depois\n conversar para esclarecer\n seus pontos.": { "lv": 2, "hp": 1, "prox_q": null },
-        "Rebater o feedback na hora,\n dizendo que está errado.": { "lv": -1, "hp": -2, "prox_q": null },
-        "Ignorar completamente o \nfeedback e continuar agindo\n como antes.": { "lv": -2, "hp": -2, "prox_q": null }
+        "Agradecer pelo feedback,\n refletir com calma e depois\n conversar para esclarecer\n seus pontos.": { "lv": 2, "hp": 1, "prox_q": "18" },
+        "Rebater o feedback na hora,\n dizendo que está errado.": { "lv": -1, "hp": -2, "prox_q": "18" },
+        "Ignorar completamente o \nfeedback e continuar agindo\n como antes.": { "lv": -2, "hp": -2, "prox_q": "18" }
+      }
+    },
+    "18":{
+      "texto":"Obrigado por jogar! Deseja sair?",
+      "respostas":{
+        "Sim" : {"lv":0,"hp":0,"prox_q":null},
+        "Sim!!" : {"lv":0,"hp":0,"prox_q":null},
+        "Sim!!!" : {"lv":0,"hp":0,"prox_q":null}
       }
     }
+    }
   }
-}
+

@@ -47,7 +47,8 @@ class JogoDaVida(ctk.CTk):
         #Se não tiver mais questões o jogo acaba
         if self.questao_atual is None:
             print('Acabou')
-            return
+            JogoDaVida.destroy(self)
+            return 
 
         #Dados referentes a questão atual
         self.dados_questao = var.dados['perguntas'][self.questao_atual]
