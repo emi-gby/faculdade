@@ -35,5 +35,7 @@ Cada pasta ou arquivo corresponde a  **atividades, exercícios em sala, ou proje
 ## 💫 **Autor**
 
 **Desenvolvido por**: 
+
 	Nome - Emi
+	
 	GitHub - https://github.com/emi-gby
