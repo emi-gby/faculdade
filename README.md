@@ -1,9 +1,5 @@
 # exercicios-faculdade
 
-
-# exercicios-faculdade
-
-
 #  🎓 **Exercícios de Programação da Faculdade**
 
 Esse repositório contem diversos exercícios de programação desenvolvidos durante os períodos da faculdade. Tem como objetivo praticar lógica de programação e habilidades de resolução de desafios.
